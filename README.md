@@ -4,7 +4,7 @@
   <h3 align="center">SoulStar</h3>
   <br /><br />
 
-  [![license](https://img.shields.io/github/license/Nobody-ML/SoulStar.svg)](https://github.com/Nobody-ML/SoulStar/blob/main/LICENSE)
+  [![license](https://img.shields.io/github/license/Nobody-ML/SoulStar.svg)](https://github.com/Nobody-ML/SoulStar/blob/main/LICENSE.txt)
 
   <!-- 🔍 模型开源地址：
 [![Static Badge](https://img.shields.io/badge/-gery?style=social&label=🤗%20Huggingface)]()
