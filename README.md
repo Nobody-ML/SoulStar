@@ -29,7 +29,7 @@ SoulStar 是一个心理咨询大模型，通过 `Large Language Model` 指令�
 
 项目持续开发中，欢迎  Star⭐、PR 和 Issue。
 
-## 🛠️ 快速开始
+<!-- ## 🛠️ 快速开始
 
 ## 🧑‍💻 
 ## 🧾 数据构建
@@ -37,4 +37,4 @@ SoulStar 是一个心理咨询大模型，通过 `Large Language Model` 指令�
 
 ## 🧠 
 
-## 📦 
+## 📦  -->
