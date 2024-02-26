@@ -18,4 +18,4 @@ transformers==4.37.1
 triton==2.1.0
 accelerate==0.24.1
 transformers_stream_generator==0.0.4
-openxlab
+openxlab==0.0.34
