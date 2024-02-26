@@ -186,7 +186,7 @@ def load_model():
     model = (AutoModelForCausalLM.from_pretrained('pretrainmodel',
                                                   trust_remote_code=True).to(
                                                       torch.bfloat16).cuda())
-    tokenizer = AutoTokenizer.from_pretrained('pretarinmodel',
+    tokenizer = AutoTokenizer.from_pretrained('pretrainmodel',
                                               trust_remote_code=True)
     return model, tokenizer
 
