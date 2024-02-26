@@ -28,9 +28,12 @@ from transformers.generation.utils import (LogitsProcessorList,
 from transformers.utils import logging
 
 from transformers import AutoTokenizer, AutoModelForCausalLM  # isort: skip
+from openxlab.model import download
 
 logger = logging.get_logger(__name__)
 
+download(model_repo='Nobody-ML/SoulStar', 
+        output='pretrainmodel')
 
 @dataclass
 class GenerationConfig:
@@ -180,10 +183,10 @@ def on_btn_click():
 
 @st.cache_resource
 def load_model():
-    model = (AutoModelForCausalLM.from_pretrained('internlm2-chat-7b-soulstar',
+    model = (AutoModelForCausalLM.from_pretrained('pretrainmodel',
                                                   trust_remote_code=True).to(
                                                       torch.bfloat16).cuda())
-    tokenizer = AutoTokenizer.from_pretrained('internlm2-chat-7b-soulstar',
+    tokenizer = AutoTokenizer.from_pretrained('pretarinmodel',
                                               trust_remote_code=True)
     return model, tokenizer
 
@@ -238,7 +241,7 @@ def main():
     user_avator = 'assets/user.png'
     robot_avator = 'assets/logo.png'
 
-    st.title('InternLM2-Chat-7B')
+    st.title('SoulStar')
 
     generation_config = prepare_generation_config()
 
