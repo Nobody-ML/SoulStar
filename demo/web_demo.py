@@ -33,7 +33,7 @@ from openxlab.model import download
 logger = logging.get_logger(__name__)
 
 download(model_repo='Nobody-ML/SoulStar', 
-        output='pretrainmodel')
+        output='/home/xlab-app-center')
 
 @dataclass
 class GenerationConfig:
@@ -183,10 +183,10 @@ def on_btn_click():
 
 @st.cache_resource
 def load_model():
-    model = (AutoModelForCausalLM.from_pretrained('pretrainmodel',
+    model = (AutoModelForCausalLM.from_pretrained('/home/xlab-app-center',
                                                   trust_remote_code=True).to(
                                                       torch.bfloat16).cuda())
-    tokenizer = AutoTokenizer.from_pretrained('pretrainmodel',
+    tokenizer = AutoTokenizer.from_pretrained('/home/xlab-app-center',
                                               trust_remote_code=True)
     return model, tokenizer
 
