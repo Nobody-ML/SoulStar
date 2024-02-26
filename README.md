@@ -59,7 +59,7 @@ streamlit run ./demo/web_demo.py --server.address 127.0.0.1 --server.port 6006
 ### 4. 基于 LMDeploy 高性能部署
 ```shell
 # 使用命令行
-lmdeploy chat turbomind /root/model/soulstar  --model-name SoulStar
+lmdeploy chat turbomind /root/model/soulstar  --model-name internlm2-chat-7b
 ```
 
 ## 🧾 数据构建
