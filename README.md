@@ -53,7 +53,7 @@ print(response)
 ```bash
 pip install streamlit
 pip install transformers
-streamlit run ./demo/web_demo.py
+streamlit run ./demo/web_demo.py --server.address 127.0.0.1 --server.port 6006
 ```
 
 ### 4. 基于 LMDeploy 高性能部署
