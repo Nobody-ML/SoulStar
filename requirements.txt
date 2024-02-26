@@ -3,12 +3,9 @@ flash_attn==2.5.5
 huggingface_hub==0.20.3
 mmengine==0.10.3
 mmengine_lite==0.10.3
-numpy==1.26.4
-pandas==2.2.1
 peft==0.7.1
 Pillow==10.2.0
 sentencepiece==0.1.99
-setuptools==68.0.0
 streamlit==1.31.1
 sympy==1.11.1
 tqdm==4.66.1
