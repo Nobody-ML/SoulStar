@@ -32,8 +32,7 @@ from openxlab.model import download
 
 logger = logging.get_logger(__name__)
 
-download(model_repo='Nobody-ML/SoulStar', 
-        output='/home/xlab-app-center')
+download(model_repo='Nobody-ML/SoulStar', output='/home/xlab-app-center')
 
 @dataclass
 class GenerationConfig:
