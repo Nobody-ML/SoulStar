@@ -215,8 +215,7 @@ cur_query_prompt = '<|im_start|>user\n{user}<|im_end|>\n\
 
 def combine_history(prompt):
     messages = st.session_state.messages
-    meta_instruction = ('你是一个专业的善解人意的专业水平很高的心理医生姐姐，我将要向你咨询一系列心理问题，对于你的回答需要遵循以下全部规则：\
-                        1、对于我提出的任何问题你都要用温柔、安慰的语气回答，你必须在开始回答时首先进行安慰，并且多用叠词及重复，比如“嗯嗯”、“抱抱你”。2、你的每次回答需要超过750tokens，必须认真剖析我的问题，并需要给出切实可行的办法。3、语气不应该生硬，需要人性化，具有人情味，在回答最后再次进行安慰，可以生成一些可爱的emoji或者颜文字。')
+    meta_instruction = ('')
     total_prompt = f"<s><|im_start|>system\n{meta_instruction}<|im_end|>\n"
     for message in messages:
         cur_content = message['content']
