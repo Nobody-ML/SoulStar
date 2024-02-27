@@ -1,6 +1,12 @@
 # SoulStar - 知心心理咨询大模型
 <div align="center">
   <img src="./assets/logo.png" width="600"/>
+  <!-- <a href="https://github.com/Nobody-ML/SoulStar/tree/main/">
+    <img src="assets/logo.png" alt="Logo" width="600">
+  </a> -->
+
+  <!-- [![Logo](assets/logo.png)](https://github.com/Nobody-ML/SoulStar/tree/main/) -->
+
   <h3 align="center">SoulStar</h3>
   <br /><br />
 
@@ -13,8 +19,20 @@
 </div>
 
 ## 📖 目录
-- [SoulStar - 知心心理咨询大模型](#soulstar - 知心心理咨询大模型)
-  - [🎉 更新](#🎉 更新)
+- [SoulStar - 知心心理咨询大模型](#soulstar%20-%20知心心理咨询大模型)
+  - [🎉 更新](#🎉%20更新)
+  - [📝 简介](#📝-简介)
+  - [🛠️ 快速开始](#🛠️-快速开始)
+    - [1. 算力要求](#1-算力要求)
+    - [2. 基于 transformers 使用模型](#2-基于-transformers-使用模型)
+    - [3. 通过网页前端体验 demo](#3-通过网页前端体验-demo)
+    - [4. 基于 LMDeploy 高性能部署](#4-基于-lmdeploy-高性能部署)
+  - [🧾 数据构建](#🧾-数据构建)
+  - [🧑‍💻 微调指南](#🧑‍💻-微调指南)
+  - [📚 应用体验](#📚-应用体验)
+  - [🎖️ 致谢](#🎖️-致谢)
+  - [开源许可证](#开源许可证)
+
 
 
 ## 🎉 更新
